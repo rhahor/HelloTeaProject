@@ -1,30 +1,35 @@
 name: HelloTeaProject
-description: A simple project to demonstrate Tea Protocol integration.
 version: 1.0.0
+description: A simple project to demonstrate Tea Protocol integration.
+repository: hhttps://github.com/rhahor/HelloTeaProject
+license: MIT
+
 maintainers:
   - name: David
     email: Obemberhahor@gmail.com
-repository: https://github.com/rhahor/HelloTeaProject
-license: MIT
+    role: Lead Developer
+
+contributors:
+  - name: Joshua
+    email: jcak71101@gmail.com
+    role: Contributor
 
 dependencies:
-  - name: python
-    version: ">=3.8"
+  - name: PyPI
+    packages:
+      - name: requests
+        version: "2.25.1"
+      - name: numpy
+        version: "1.20.3"
 
 governance:
-  maintainers:
-    - name: David
-      email: Obemberhahor@gmail.com
-      role: Lead Developer
-  contributors:
-    - name: Joshua
-      email: jcak71101@gmail.com
-      role: Contributor
+  votingMechanism: simple majority
+  proposalSubmission: open
 
 rewards:
   distribution:
-    maintainers: 70%
-    contributors: 30%
+    maintainers: 70
+    contributors: 30
   criteria:
     - task: Code Contribution
       reward: 50
