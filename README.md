@@ -1,2 +1,2 @@
-# TEA-PROJ
+# HelloTeaProject
 TEA PROJECT
