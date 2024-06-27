@@ -1,6 +1,34 @@
-# https://tea.xyz/what-is-this-file
----
+name: HelloTeaProject
+description: A simple project to demonstrate Tea Protocol integration.
 version: 1.0.0
-codeOwners:
-  - '0xC6BDA220D29658F5A543106beb63dA4a750bfdF6'
-quorum: 1
+maintainers:
+  - name: David
+    email: Obemberhahor@gmail.com
+repository: https://github.com/rhahor/HelloTeaProject
+license: MIT
+
+dependencies:
+  - name: python
+    version: ">=3.8"
+
+governance:
+  maintainers:
+    - name: David
+      email: Obemberhahor@gmail.com
+      role: Lead Developer
+  contributors:
+    - name: Joshua
+      email: jcak71101@gmail.com
+      role: Contributor
+
+rewards:
+  distribution:
+    maintainers: 70%
+    contributors: 30%
+  criteria:
+    - task: Code Contribution
+      reward: 50
+    - task: Documentation
+      reward: 20
+    - task: Bug Fix
+      reward: 30
