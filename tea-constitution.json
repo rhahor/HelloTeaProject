@@ -1,16 +1,4 @@
-{
-    "name": "HelloTeaProject",
-    "description": "A simple project to demonstrate Tea Protocol integration.",
-    "maintainers": [
-        {
-            "name": "David",
-            "email": "Obemberhahor@gmail.com"
-        }
-    ],
-    "repository": "https://github.com/rhahor/HelloTeaProject",
-    "license": "MIT",
-    "initialStakes": {
-        "maintainers": 100,
-        "contributors": 50
-    }
-}
+version: 1.0.0
+codeOwners:
+  - '0xC6BDA220D29658F5A543106beb63dA4a750bfdF6'
+quorum: 1
